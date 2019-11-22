@@ -1,0 +1,75 @@
+package com.ustglobal.webappp.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+public class GetEmployeeDetail extends HttpServlet{
+@Override
+protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+String empid=req.getParameter("text");
+String driverClass="com.mysql.jdbc.Driver";
+String url="jdbc:mysql://localhost:3306/ust_ty_db";
+PreparedStatement pstmt=null;
+ResultSet rs=null;
+Connection conn=null;
+PrintWriter out=resp.getWriter();
+
+try {
+	Class.forName(driverClass);
+	conn=DriverManager.getConnection(url,"root","ROOT");
+	pstmt=conn.prepareStatement("select * from employee_info where id=?");\
+	rs=pstmt.setString(1,empId);
+	rs=pstmt.executeQuery();
+	
+	out.println("<table>");
+	out.println("<thead>");
+	out.println("<th> id </th>");
+	out.println("<th> name </th>");
+	out.println("<th> sal </th>");
+	out.println("<th> gender </th>");
+	out.println("</thead>");
+	out.println("</table>");
+	
+	while(rs.next()) {
+		out.println("<tbody>");
+		out.println("<tr>");
+		out.println("<td>");
+		out.println(rs.getInt(1));
+		out.println("</td>");
+
+		out.println("<td>");
+		out.println(rs.getString(2));
+		out.println("</td>");
+
+		out.println("<td>");
+		out.println(rs.getInt(3));
+		out.println("</td>");
+
+		out.println("<td>");
+		out.println(rs.getString(4));
+		out.println("</td>");
+		out.println("</tr>");
+		out.println("</tbody>");
+		out.println("</table>");
+	}
+}
+catch(Exception e) {
+	e.printStackTrace();
+}
+
+
+
+
+
+}
+}

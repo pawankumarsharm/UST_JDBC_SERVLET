@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="red">
+<fieldset align="center">
+<legend>Change Password</legend>
+<form action="" method="post"> 
+<table>
+<tr>
+<td>New Password:</td>
+<td> <input name="password" type="password"></td>
+</tr>
+<tr>
+<td><input type="submit" value ="reset"></td>
+<td><input type="reset" value ="change password"></td>
+</tr>
+
+
+
+
+
+</table>
+
+		
+	</form>
+</fieldset>
+</body>
+</html>

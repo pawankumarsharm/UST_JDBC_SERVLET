@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<form action="" method="post> 
+<fieldset align="center">
+<legend>Login</legend>
+<table>
+<tr>
+<td>Login-Id:</td>
+<td> <input name="id" type="number"></td>
+</tr>
+
+<tr>
+<td>Login-Password:</td>
+<td>  <input type="password" name="password"></td>
+</tr>
+
+<tr>
+<td>Remember me:</td>
+<td>   <input type="checkbox"></td>
+</tr>
+
+<tr>
+<td><input type="submit" value ="login"></td>
+</tr>
+
+
+<td><input type="submit" value ="reset"><br></td>
+<tr>
+<td><a href="#">register</a></td>
+</tr>
+
+
+
+
+
+
+</table>
+		
+		
+		
+	</form>
+</fieldset>
+</body>
+</html>

@@ -1,0 +1,10 @@
+package com.ustglobal.empwebapp.dao2;
+
+public class EmployeeDaoManager {
+private EmployeeDaoManager() {
+	
+	public static EmployeeDao getEmployeeDap() {
+		return new Employee
+	}
+}
+}

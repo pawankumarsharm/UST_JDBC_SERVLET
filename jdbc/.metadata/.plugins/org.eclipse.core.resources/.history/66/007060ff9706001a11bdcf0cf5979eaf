@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="./redirect">
+<table>
+<tr>
+<td>Search</td>
+<td><input name="search" type="text"></td>
+</tr>
+<tr>
+<td>Bing</td>
+<td><input type="radio" name="select" value="Bing">Bing</td>
+
+</tr>
+
+<tr>
+<td>Google</td>
+<td><input type="radio" name="select" value="Google">Google</td>
+
+</tr>
+
+<tr>
+<td>Yahoo</td>
+<td><input type="radio" name="select" value="Yahoo">Yahoo</td>
+
+</tr>
+<tr>
+<td>Submit</td>
+<td><input name="search" type="submit"></td>
+</tr>
+
+
+
+</table>
+
+
+
+
+
+</form>
+</body>
+</html>

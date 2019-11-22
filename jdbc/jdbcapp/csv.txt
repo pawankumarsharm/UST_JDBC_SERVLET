@@ -1,0 +1,4 @@
+19,priya,200010,F
+20,kirtivardan,90000,M
+21,Devsena,9000,F
+22,Sheela,2000000,F

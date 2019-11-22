@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action=""> 
+		Search: <input name="id" type="text"><br><br>
+		<a href="#">search</a><br><br>
+		  <a href="#">change password</a><br><br>
+<a href="#">Logout</a><br><br>
+	</form>
+
+</body>
+</html>

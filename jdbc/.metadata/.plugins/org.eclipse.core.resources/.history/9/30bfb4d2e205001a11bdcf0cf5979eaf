@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+	<form action=""> 
+		<input name="empname" type="text">
+		<input type="submit" name="submit">
+	</form>
+</body>
+</html>

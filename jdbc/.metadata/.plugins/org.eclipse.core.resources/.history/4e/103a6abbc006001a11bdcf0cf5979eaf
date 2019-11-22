@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="./emp-data" method="post">
+<table>
+<tr>
+<td>Search EmpName:<input name="text" type="text"></td>
+</tr>
+<tr>
+<td><input type="submit"></td>
+</table>
+
+
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="yellow">
+<form action=""> 
+<table>
+<tr>
+<td>Login-Id:</td>
+<td> <input name="id" type="number"></td>
+</tr>
+
+<tr>
+<td>Login-Password:</td>
+<td>  <input type="password" name="password"></td>
+</tr>
+
+<tr>
+<td>Remember me:</td>
+<td>   <input type="checkbox"><br><br></td>
+</tr>
+
+<tr>
+<td><input type="submit" value ="login"><br></td>
+</tr>
+
+<tr>
+<td><input type="submit" value ="reset"><br></td>
+</tr>
+
+
+
+
+
+
+
+</table>
+		
+		
+		
+	</form>
+
+</body>
+</html>

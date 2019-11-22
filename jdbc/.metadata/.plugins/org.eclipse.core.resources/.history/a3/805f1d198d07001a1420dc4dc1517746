@@ -1,0 +1,5 @@
+package com.ustglobal.empwebapp.servlets;
+
+public class LoginServlet {
+
+}

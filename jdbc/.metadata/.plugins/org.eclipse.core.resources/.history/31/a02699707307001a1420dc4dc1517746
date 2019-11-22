@@ -1,0 +1,5 @@
+package com.ustglobal.empwebapp.util2;
+
+public class EmployeeDaoManager {
+
+}
